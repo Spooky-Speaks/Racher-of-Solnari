@@ -29,7 +29,7 @@ class ConfigManager:
         "main_category_id": None,
         "fallback_category_id": None,
         "prefix": "?",
-        "mention": "<@&1415650677975289999>",
+        "mention": "@here",
         "main_color": str(discord.Color.blurple()),
         "error_color": str(discord.Color.red()),
         "user_typing": False,
