@@ -168,9 +168,9 @@ class ConfigManager:
 
     private_keys = {
         # bot presence
-        "activity_message": "Watching over Rerir Mains",
-        "activity_type": "Watching",
-        "status": "Discord.gg/Rerir",
+        "activity_message": "",
+        "activity_type": None,
+        "status": None,
         "dm_disabled": DMDisabled.NONE,
         "oauth_whitelist": [],
         # moderation
