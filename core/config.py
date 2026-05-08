@@ -29,7 +29,7 @@ class ConfigManager:
         "main_category_id": None,
         "fallback_category_id": None,
         "prefix": "?",
-        "mention": "@here",
+        "mention": "<@&1415650677975289999>",
         "main_color": str(discord.Color.blurple()),
         "error_color": str(discord.Color.red()),
         "user_typing": False,
@@ -123,7 +123,7 @@ class ConfigManager:
         "react_to_contact_message": None,
         "react_to_contact_emoji": "\N{WHITE HEAVY CHECK MARK}",
         # confirm thread creation
-        "confirm_thread_creation": False,
+        "confirm_thread_creation": True,
         "confirm_thread_creation_title": "Confirm thread creation",
         "confirm_thread_response": "Click the button to confirm thread creation which will directly contact the moderators.",
         "confirm_thread_creation_accept": "\N{WHITE HEAVY CHECK MARK}",
